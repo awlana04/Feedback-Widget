@@ -5,7 +5,7 @@ import { Camera, Trash } from "phosphor-react";
 import { Loading } from "./Loading";
 
 interface ScreenshotButtonProps {
-  screenshot: string;
+  screenshot: string | null;
   onScreenshotTook: (screenshot: string | null) => void;
 }
 
