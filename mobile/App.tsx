@@ -1,3 +1,5 @@
+import "react-native-gesture-handler";
+
 import { StatusBar } from "expo-status-bar";
 import { Text, View } from "react-native";
 import {
@@ -7,7 +9,7 @@ import {
 } from "@expo-google-fonts/inter";
 
 import { theme } from "./src/theme";
-import Widget from "./src/components/Widget/index";
+import Widget from "./src/components/Widget";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -26,8 +28,9 @@ export default function App() {
         backgroundColor: theme.colors.background,
       }}
     >
-      <Widget />
       <StatusBar style="light" backgroundColor="transparent" translucent />
+
+      <Widget />
     </View>
   );
 }
