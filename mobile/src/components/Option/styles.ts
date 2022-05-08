@@ -3,20 +3,26 @@ import { theme } from "../../theme";
 
 export const styles = StyleSheet.create({
   container: {
+    width: 104,
+    height: 112,
+    padding: 0,
+    marginHorizontal: 8,
+
+    backgroundColor: theme.colors.surface_secondary,
+    borderRadius: 8,
+
     alignItems: "center",
+    justifyContent: "center",
+  },
+  image: {
+    width: 40,
+    height: 40,
   },
   title: {
-    marginBottom: 32,
+    marginTop: 8,
 
     color: theme.colors.text_primary,
-    fontSize: 20,
+    fontSize: 14,
     fontFamily: theme.fonts.medium,
-  },
-  options: {
-    width: "100%",
-    marginBottom: 48,
-
-    flexDirection: "row",
-    justifyContent: "center",
   },
 });
