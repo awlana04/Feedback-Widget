@@ -1,4 +1,5 @@
 import "react-native-gesture-handler";
+import "dotenv/config";
 
 import { StatusBar } from "expo-status-bar";
 import { Text, View } from "react-native";

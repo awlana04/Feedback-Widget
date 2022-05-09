@@ -27,7 +27,7 @@ export const styles = StyleSheet.create({
   },
   image: {
     width: 24,
-    heigt: 24,
+    height: 24,
     marginRight: 8,
   },
   input: {
@@ -36,7 +36,7 @@ export const styles = StyleSheet.create({
     padding: 12,
 
     borderWidth: 1,
-    bordercolor: theme.colors.stroke,
+    borderColor: theme.colors.stroke,
     borderRadius: 4,
 
     color: theme.colors.text_primary,
